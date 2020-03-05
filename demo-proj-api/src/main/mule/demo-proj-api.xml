@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="demo-proj-apiFlow" doc:id="9eca8b88-0ff6-42f3-a0d5-a0adece64ab4" >
 		<http:listener doc:name="Listener" doc:id="5bc4103b-1b79-43d6-b9a4-6767a51d0d98" config-ref="HTTP_Listener_config" path="/demo"/>
 		<set-payload value="This is just try for training" doc:name="Set Payload" doc:id="0588c7f0-3285-4c5f-b1de-1becc39645dc" />
-		<logger level="INFO" doc:name="Logger" doc:id="2ba69042-845d-49f1-85df-d71f278a665e" message="this is another logger to logged the message"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2ba69042-845d-49f1-85df-d71f278a665e" message="this is logger to logged the message"/>
 	</flow>
 
 </mule>
